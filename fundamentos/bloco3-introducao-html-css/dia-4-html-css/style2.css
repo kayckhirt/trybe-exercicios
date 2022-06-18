@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*{
+    font-family: var(--font);
+}
+:root{
+    --cor01: #D8E6F2;
+    --cor02: #ADC5D9;
+    --cor03: #024959;
+    --cor04: #012E40;
+    --font: 'Libre Baskerville';
+}
+h2, h3, h4{
+    color: var(--cor04);
+    font-weight: bold;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #024959;
+    padding-top: 10px;
+    text-align: center;
+    color: var(--cor01);
+    box-sizing: border-box;
+}
+header h1{
+    font-size: 2em
+}
+header li a{
+    text-decoration: none;
+    color: var(--cor01);
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 2%;
+    padding-right: 1%;
+}
+header a:hover{
+    background-color: var(--cor01);
+    color: var(--cor04);
+    padding: 10px;
+    border-radius: 5px;
+}
+main{
+    width: 60%;
+    margin-left: 10%;
+    float: left;
+    background-color: var(--cor01);
+    padding: 2%;
+    text-align: center;
+    line-height: 25px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+ul{
+    list-style-position: inside;
+    display: block;
+}
+aside{
+    width: 25%;
+    float: right;
+    background-color: var(--cor02);
+    height: 100%;
+    font-size: 1.2em;
+    padding: 1%;
+    padding-right: 10%;
+    border-radius: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+aside a{
+    text-decoration: none;
+    color: var(--cor03);
+}
+.curi{
+    font-size: 1.8em;
+}
+.img{
+    width: 500px;
+}
+.img:active{
+    width: 100%;
+}
+.referencias a{
+    padding-right: 15px;
+    color: var(--cor03);
+    text-decoration: none;
+}
+footer{
+    clear: both;
+    background-color: var(--cor04);
+    color: var(--cor01);
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.caixa{
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+.width-and-height{
+    height: 50px;
+    width: 50px;
+}
+.verde{
+    background-color:  #036b52;
+}
+.roxo{
+    background-color: #41197f;;
+}
+.cinza{
+    background-color: #444955;
+}
+.azul{
+    background-color: #3898EC;
+}
+.padding{
+    padding: 20px;
+}
+.margin{
+    margin: 30px;
+}
+.border{
+    border: 5px solid black;
+}
