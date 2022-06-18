@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+div:hover{
+    border: 1px solid black;
+}
+div:nth-child(3){
+    color: red;
+    font-style: italic;
+}
+div:nth-child(4){
+    color: purple;
+}
+div:nth-child(5){
+    color: aquamarine;
+    font-style: italic;
+}
+div:nth-child(7){
+    color: burlywood;
+    font-style: italic;
+}
